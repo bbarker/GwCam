@@ -3,4 +3,61 @@
   <groupId>fr.flow10000.jme3.gwcam</groupId>
   <artifactId>GwCam</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-core</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-desktop</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-lwjgl</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-terrain</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-bullet</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-bullet-natives</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-plugins</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>jME3-ai</artifactId>
+			<version>0.1.831</version>
+		</dependency>
+
+	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>jme3</id>
+			<url>http://updates.jmonkeyengine.org/maven</url>
+		</repository>
+	</repositories>
+  
+  
 </project>
